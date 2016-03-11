@@ -69,6 +69,7 @@ class ApplicationMgr:
                 mode = int(raw_input(': '))
             except ValueError:
                 print "Not a number!"
+                exit()
             if mode == 1 or mode == 2:
                 chooseInputMenuTrap = False
             else:
